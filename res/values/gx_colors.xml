@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The Bluenixx Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Material 3 Expressive color roles (light, static fallback) -->
+<resources>
+    <color name="gx_primary">#3A63D6</color>
+    <color name="gx_on_primary">#FFFFFF</color>
+    <color name="gx_primary_container">#D9E2FF</color>
+    <color name="gx_on_primary_container">#001A41</color>
+    <color name="gx_secondary_container">#DCE2F9</color>
+    <color name="gx_on_secondary_container">#141B2C</color>
+    <color name="gx_tertiary_container">#FFDEAE</color>
+    <color name="gx_on_tertiary_container">#281900</color>
+    <color name="gx_surface">#FAF8FF</color>
+    <color name="gx_on_surface">#1A1B20</color>
+    <color name="gx_on_surface_variant">#44474F</color>
+    <color name="gx_surface_container">#EEEDF4</color>
+    <color name="gx_surface_container_high">#E8E7EE</color>
+    <color name="gx_outline_variant">#C4C6D0</color>
+    <color name="gx_app_bar">@color/gx_primary</color>
+    <color name="gx_on_app_bar">@color/gx_on_primary</color>
+</resources>

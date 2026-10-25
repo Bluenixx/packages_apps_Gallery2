@@ -317,11 +317,12 @@
         <item name="android:background">@drawable/bg_pressed</item>
     </style>
 
-    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowDisablePreview">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:statusBarColor">#212121</item>
+        <item name="android:statusBarColor">@color/gx_app_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionModeOverlay">true</item>
@@ -331,6 +332,37 @@
         <item name="android:homeAsUpIndicator">@drawable/back</item>
         <item name="android:actionModeCloseDrawable">@drawable/multiselected_back</item>
         <item name="android:windowNoTitle">true</item>
+
+        <!-- Material 3 Expressive color roles (dynamic color on Android 12+) -->
+        <item name="colorPrimary">@color/gx_primary</item>
+        <item name="colorOnPrimary">@color/gx_on_primary</item>
+        <item name="colorPrimaryContainer">@color/gx_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/gx_on_primary_container</item>
+        <item name="colorSecondaryContainer">@color/gx_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/gx_on_secondary_container</item>
+        <item name="colorTertiaryContainer">@color/gx_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/gx_on_tertiary_container</item>
+        <item name="colorSurface">@color/gx_surface</item>
+        <item name="colorOnSurface">@color/gx_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/gx_on_surface_variant</item>
+
+        <!-- Expressive shapes: bigger, softer corners -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Gallery.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Gallery.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Gallery.Large</item>
+    </style>
+
+    <style name="ShapeAppearance.Gallery.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.Gallery.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="ShapeAppearance.Gallery.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
     </style>
 
     <style name="QueryTheme" parent="android:Theme.Material">
@@ -345,6 +377,8 @@
 
     <style name="ToolbarTitleStyle" parent="android:TextAppearance.Material.Widget.Toolbar.Title">
         <item name="android:textSize">@dimen/toolbar_title_text_size</item>
+        <item name="android:textColor">@color/gx_on_app_bar</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
     <style name="ToolbarPopUpTheme" parent="@android:style/ThemeOverlay.Material.Light" />

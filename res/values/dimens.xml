@@ -233,7 +233,7 @@
     <dimen name="controller_indicator_icon_size">36dp</dimen>
     <dimen name="controller_indicator_text_size">16sp</dimen>
 
-    <dimen name="toolbar_title_text_size">20dp</dimen>
+    <dimen name="toolbar_title_text_size">22sp</dimen>
     <dimen name="toolbar_exit_padding_left">16dp</dimen>
 
     <dimen name="watermark_default_size">75dp</dimen>

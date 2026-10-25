@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The Bluenixx Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<!-- Material 3 Expressive color roles (dark, dynamic color / Material You) -->
+<resources>
+    <color name="gx_primary">@android:color/system_accent1_200</color>
+    <color name="gx_on_primary">@android:color/system_accent1_800</color>
+    <color name="gx_primary_container">@android:color/system_accent1_700</color>
+    <color name="gx_on_primary_container">@android:color/system_accent1_100</color>
+    <color name="gx_secondary_container">@android:color/system_accent2_700</color>
+    <color name="gx_on_secondary_container">@android:color/system_accent2_100</color>
+    <color name="gx_tertiary_container">@android:color/system_accent3_700</color>
+    <color name="gx_on_tertiary_container">@android:color/system_accent3_100</color>
+    <color name="gx_surface">@android:color/system_neutral1_900</color>
+    <color name="gx_on_surface">@android:color/system_neutral1_100</color>
+    <color name="gx_on_surface_variant">@android:color/system_neutral2_200</color>
+    <color name="gx_surface_container">@android:color/system_neutral1_800</color>
+    <color name="gx_surface_container_high">@android:color/system_neutral1_700</color>
+    <color name="gx_outline_variant">@android:color/system_neutral2_700</color>
+    <color name="gx_app_bar">@color/gx_surface_container</color>
+    <color name="gx_on_app_bar">@color/gx_on_surface</color>
+</resources>

@@ -15,9 +15,9 @@
 -->
 <resources>
 
-    <color name="primary">#333333</color>
-    <color name="primaryDark">#000000</color>
-    <color name="accent">#33b5e5</color>
+    <color name="primary">@color/gx_app_bar</color>
+    <color name="primaryDark">@color/gx_app_bar</color>
+    <color name="accent">@color/gx_primary</color>
 
     <color name="white">#fafafa</color>
     <color name="black">#212121</color>

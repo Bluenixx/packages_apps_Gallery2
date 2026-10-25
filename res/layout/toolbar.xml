@@ -31,14 +31,17 @@
 <com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/gx_app_bar"
+    android:elevation="0dp"
+    android:stateListAnimator="@null"
     android:theme="@style/ToolbarTheme">
 
     <Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/primary"
-        android:elevation="8dp"
+        android:background="@color/gx_app_bar"
+        android:elevation="0dp"
         android:titleTextAppearance="@style/ToolbarTitleStyle"
         android:popupTheme="@style/ToolbarPopUpTheme" />
 
